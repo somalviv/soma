@@ -449,6 +449,21 @@ p:not( .calendar__date ) {
 	font-size: 14PX;
 }
 
+/**
+ * Workshop
+ */
+@media ( max-width: 768px ) {
+	#workshop .entry-content {
+		height: auto !important;
+	}
+
+	#workshop .entry-item {
+		position: relative !important;
+		top: auto !important;
+		left: auto !important;
+		right: auto !important;
+	}
+}
 
 /**
  * Shift Border
@@ -463,4 +478,4 @@ p:not( .calendar__date ) {
 /**
  * Media
  */
-@media ( max-width: 800px ) {}
+@media ( max-width: 768px ) {}
