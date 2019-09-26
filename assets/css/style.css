@@ -298,52 +298,52 @@ p:not( .calendar__date ) {
 }
 
 /**
- * Random images
+ * Images
  */
-.random-images {}
+.images {}
 
-.random-image {
-	display: none;
+.images .image {
+	display: block;
 	position: absolute;
 }
 
-.random-image:nth-child(1) {
-    top: 15%;
-    left: 56%;
+.images .image:nth-child(1) {
+	top: 15%;
+	left: 56%;
 }
 
-.random-image:nth-child(1) img {
+.images .image:nth-child(1) img {
 	width: 154px;
 }
 
-.random-image:nth-child(2) {
+.images .image:nth-child(2) {
 	top: 56%;
 	left: 84%;
 }
 
-.random-image:nth-child(2) img {
+.images .image:nth-child(2) img {
 	width: 79px;
 }
 
-.random-image:nth-child(3) {
+.images .image:nth-child(3) {
 	top: 12%;
 	left: 78%;
 }
 
-.random-image:nth-child(3) img {
+.images .image:nth-child(3) img {
 	width: 188px;
 }
 
-.random-image:nth-child(4) {
+.image:nth-child(4) {
 	top: 35%;
 	left: 92%;
 }
 
-.random-image:nth-child(4) img {
+.images .image:nth-child(4) img {
 	width: 104px;
 }
 
-.random-image img {
+.image img {
 	width: 256px;
 }
 
@@ -396,7 +396,7 @@ p:not( .calendar__date ) {
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem #EF4123;
+	box-shadow: 0 0 0 .2rem #EF4123;
 }
 
 .btn-outline-primary.focus, .btn-outline-primary:focus {
