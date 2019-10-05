@@ -283,7 +283,7 @@ p:not( .calendar__date ) {
 }
 
 .carousel-control-prev {
-	cursor: url('prev.png'), auto;
+	cursor: url('https://raw.githubusercontent.com/somalviv/soma.red/master/assets/img/arrows/prev.png'), auto;
 }
 
 .carousel-control-next {
